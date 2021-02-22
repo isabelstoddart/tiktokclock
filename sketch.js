@@ -16,7 +16,7 @@ class Clock{
 			background(5, 55, 82);
 		}
 
-		translate(730, 375);
+		translate(730, 325);
 		rotate(-90);
 
 		if(this.sender == "Ayashe"){
@@ -41,13 +41,13 @@ class Clock{
 	        push();
 	        rotate(minuteAngle);
 	        stroke(150, 100, 255);
-	        line(0, 0, 75, 0);
+	        line(0, 0, 115, 0);
 	        pop();
   
 	        push();
 	        rotate(hourAngle);
 	        stroke(150,100,255);
-	        line(0, 0, 50, 0);
+	        line(0, 0, 90, 0);
 	        pop();
             }
         else if(this.cont == "Political"){
@@ -58,13 +58,13 @@ class Clock{
 	        push();
 	        rotate(minuteAngle);
 	        stroke(150, 255, 100);
-	        line(0, 0, 75, 0);
+	        line(0, 0, 115, 0);
 	        pop();
   
 	        push();
 	        rotate(hourAngle);
 	        stroke(150, 255, 100);
-	        line(0, 0, 50, 0);
+	        line(0, 0, 90, 0);
 	        pop();
         }
         else if(this.cont == "TV Shows"){
@@ -75,13 +75,13 @@ class Clock{
 	        push();
 	        rotate(minuteAngle);
 	        stroke(255, 131, 0);
-	        line(0, 0, 75, 0);
+	        line(0, 0, 115, 0);
 	        pop();
   
 	        push();
 	        rotate(hourAngle);
 	        stroke(255, 131, 0);
-	        line(0, 0, 50, 0);
+	        line(0, 0, 90, 0);
 	        pop();
         }
         else if(this.cont == "Movies"){
@@ -92,13 +92,13 @@ class Clock{
 	        push();
 	        rotate(minuteAngle);
 	        stroke(247,247,73);
-	        line(0, 0, 75, 0);
+	        line(0, 0, 115, 0);
 	        pop();
   
 	        push();
 	        rotate(hourAngle);
 	        stroke(247,247,73);
-	        line(0, 0, 50, 0);
+	        line(0, 0, 90, 0);
 	        pop();
         }
 
@@ -110,13 +110,13 @@ class Clock{
 	        push();
 	        rotate(minuteAngle);
 	        stroke(27,3,163);
-	        line(0, 0, 75, 0);
+	        line(0, 0, 115, 0);
 	        pop();
   
 	        push();
 	        rotate(hourAngle);
 	        stroke(27,3,163);
-	        line(0, 0, 50, 0);
+	        line(0, 0, 90, 0);
 	        pop();
         }
 
@@ -130,13 +130,13 @@ class Clock{
 	        push();
 	        rotate(minuteAngle);
 	        stroke(255,110,199);
-	        line(0, 0, 75, 0);
+	        line(0, 0, 115, 0);
 	        pop();
   
 	        push();
 	        rotate(hourAngle);
 	        stroke(255,110,199);
-	        line(0, 0, 50, 0);
+	        line(0, 0, 90, 0);
 	        pop();
 		}
 		
@@ -145,7 +145,7 @@ class Clock{
 			stroke(25);
 			strokeWeight(2);
 			fill(0);
-			ellipse(0,0,15,15);
+			ellipse(0,0,25,25);
 		}
 
 		else if(this.react == "Thumbs Down"){
@@ -153,7 +153,7 @@ class Clock{
 			stroke(25);
 			strokeWeight(2);
 			fill(0);
-			triangle(-5,0,5,-5,5,5);
+			triangle(-13,0,13,-13,13,13);
 		}
 
 		else if(this.react == "Heart"){
@@ -173,7 +173,7 @@ class Clock{
 		stroke(25);
 		strokeWeight(2);
 		fill(0);
-		triangle(5,0,-5,5,-5,-5);
+		triangle(13,0,-13,13,-13,-13);
 		}
 
 		else if(this.react == "Question"){
@@ -181,7 +181,7 @@ class Clock{
 			stroke(25);
 			strokeWeight(2);
 			fill(0);
-			ellipse(0,0,25,10);
+			ellipse(0,0,35,20);
 		}
 
 		else if(this.react == "Emphasized"){
@@ -189,7 +189,7 @@ class Clock{
 			stroke(25);
 			strokeWeight(2);
 			fill(0);
-			rect(-10,-10,15,15);
+			rect(-15,-15,20,20);
 		}
 
         //stroke(255);
@@ -207,7 +207,7 @@ let table;
 let toks = [];
 
 function setup() {
-	createCanvas(1480, 800);
+	createCanvas(1450, 660);
 	angleMode(DEGREES);
 	frameRate(2);
     
