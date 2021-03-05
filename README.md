@@ -12,4 +12,5 @@ This visualization shows a week of Tik Toks represented in a clock like fashion.
 ## Web-based Visualization
 This visualization shows each TikTok using a clock to represent the time each TikTok was sent. The rim of the clock changes color depending on the sender. The background represents time moving from AM to PM. The hands of the clock change color depending on the content of the TikTok and the middle of the clock changes shape depending on the text reaction of the receiver.
 
-
+![](pic2.png)
+![](pic3.png)
