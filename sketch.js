@@ -16,7 +16,7 @@ class Clock{
 			background(5, 55, 82);
 		}
 
-		translate(730, 325);
+		translate(683, 334);
 		rotate(-90);
 
 		if(this.sender == "Ayashe"){
@@ -207,7 +207,7 @@ let table;
 let toks = [];
 
 function setup() {
-	createCanvas(1450, 660);
+	createCanvas(1366, 668);
 	angleMode(DEGREES);
 	frameRate(2);
     
